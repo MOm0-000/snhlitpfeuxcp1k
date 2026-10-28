@@ -1,0 +1,67 @@
+{
+  "models": [
+    {
+      "model_dir": "/home/zxx/NLPexp/exp1/code/outputs/sweep/fgm/best_model",
+      "max_length": 192,
+      "weight": 0.3333333333333333
+    },
+    {
+      "model_dir": "/home/zxx/NLPexp/exp1/code/outputs/sweep/longer/best_model",
+      "max_length": 192,
+      "weight": 0.3333333333333333
+    },
+    {
+      "model_dir": "/home/zxx/NLPexp/exp1/code/outputs/sweep/baseline/best_model",
+      "max_length": 128,
+      "weight": 0.3333333333333333
+    }
+  ],
+  "type": "probability_soft_voting",
+  "samples": 4000,
+  "metrics": {
+    "accuracy": 0.88075,
+    "macro_f1": 0.8807498136715839,
+    "macro_precision": 0.8807523797023731,
+    "macro_recall": 0.8807499999999999,
+    "positive_precision": 0.8817042606516291,
+    "positive_recall": 0.8795,
+    "positive_f1": 0.8806007509386733,
+    "confusion_matrix": [
+      [
+        1764,
+        236
+      ],
+      [
+        241,
+        1759
+      ]
+    ],
+    "classification_report": {
+      "negative_0": {
+        "precision": 0.8798004987531172,
+        "recall": 0.882,
+        "f1-score": 0.8808988764044944,
+        "support": 2000.0
+      },
+      "positive_1": {
+        "precision": 0.8817042606516291,
+        "recall": 0.8795,
+        "f1-score": 0.8806007509386733,
+        "support": 2000.0
+      },
+      "accuracy": 0.88075,
+      "macro avg": {
+        "precision": 0.8807523797023731,
+        "recall": 0.8807499999999999,
+        "f1-score": 0.8807498136715839,
+        "support": 4000.0
+      },
+      "weighted avg": {
+        "precision": 0.8807523797023731,
+        "recall": 0.88075,
+        "f1-score": 0.8807498136715838,
+        "support": 4000.0
+      }
+    }
+  }
+}

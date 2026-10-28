@@ -1,0 +1,344 @@
+﻿id,text,label,classical_pred,transformer_pred,classical_correct,transformer_correct,disagree,negation,contrast,transformer_wins,classical_wins,both_wrong
+zh_0048844,配送了很长时间，最后通知我被退货了，无奈选择其他。 sorry，以前从不去评价，现在要好好评价了，后来我就把这段话复制走了，还省事，走到哪复制到哪，最重要的是，不用认真的评论了，不用想还差多少字，直接发出就可以了，推荐给大家！！,0,1,1,False,False,False,True,False,False,False,True
+zh_0111902,买给表弟的，梭罗的书很耐读，文笔也很优美，一星是给书本的印刷！整本书纸质粗糙先按下不提错别字是怎么回事？给表弟读了大半本找出了好多错别字，自己再一一的纠正，就担心影响小孩子，一直以来买书都在亚马逊，希望可以杜绝这类事件,0,1,1,False,False,False,True,False,False,False,True
+zh_0880256,今时今日还能遇到亚马逊这样低效率的物流和低水准的客服团队，也真的是不容易！！！,0,1,1,False,False,False,True,False,False,False,True
+zh_0546926,终于入手了，卡通图案好可爱，用了两天感觉明显头发掉的少了，减少毛躁倒是没看出来，物流也真是快,0,1,1,False,False,False,True,False,False,False,True
+zh_0794419,这本书不错，给我们提供了很多思路。在带孩子游戏方面，确实很有帮助。,0,1,1,False,False,False,True,False,False,False,True
+zh_0362048,本人169/62公斤，买的S号小了。应该买M号就合适，质量到很好。只有送人了,0,1,1,False,False,False,False,False,False,False,True
+zh_0582626,第一件改品牌衬衫偏小一些，这次选个M码结果堪比国内XL码,0,1,1,False,False,False,False,False,False,False,True
+zh_0868991,题型和考试的不一样，中公牌子挺大的，所以就太相信这个卷子了，以致考试的时候看到不一样题型的卷子愣了几秒钟。。。有时间做卷子还是多看看书比较好，配套的书还是挺好的。,0,1,1,False,False,False,True,False,False,False,True
+zh_0441199,"样子很好看,但是续航能力只有大约25分钟,清扫40平方米的客厅,充电时间也要4个小时,同样对比罗伯特就实用多了",0,1,1,False,False,False,False,True,False,False,True
+zh_0796531,买的时候很合身，洗了一次，就变成了加加加大,0,1,1,False,False,False,False,False,False,False,True
+zh_0811409,鞋子很软很不错，虽然颜色没有我喜欢的，但推荐的不错,0,1,1,False,False,False,True,True,False,False,True
+zh_0219234,快递很快，玩具质量也不错，孩子很喜欢5个星，订了好久今天才数了数珠子不到500个472个,0,1,1,False,False,False,True,False,False,False,True
+zh_0548372,一直来亚马逊买书，价格还有优惠。正版图书挺好的，印刷和纸张跟盗版的没法比。之前六部亚马逊没有。太可惜了。只能买了影印版。,0,1,1,False,False,False,True,False,False,False,True
+zh_0690996,买了两袋一起的捆绑销售。本应该想到的，就知道没有那么好吃。添加剂挺多的，不介意的话就买吧，实在便宜。,0,1,1,False,False,False,True,False,False,False,True
+zh_0048754,大半个月前，我买的时候599，现在399，我能说什么呢。鞋挺好的。,0,1,1,False,False,False,False,False,False,False,True
+zh_0742517,物流还是很快的。就是书感觉不像是正版的，,0,1,1,False,False,False,True,False,False,False,True
+zh_0556790,用久了，觉得皮质还是可以的。后来才知道，没有那个金属标志也是正品。做工再稍好些，就没有问题啦！,0,1,1,False,False,False,True,False,False,False,True
+zh_0048463,勉强看吧。感觉和南派三叔的怒江之战颇为相似哦。,0,1,1,False,False,False,False,False,False,False,True
+zh_0153402,不错，秀气，表带嫌长，花了十块钱卸了八节,0,1,1,False,False,False,True,False,False,False,True
+zh_0512859,这个手拿包是买给自己的，做工很好，就是打开一闻味道好重哦，要晾晒一个月吧～,0,1,1,False,False,False,False,False,False,False,True
+zh_0601772,书包装得很好，是正版，很不错，下次还会光临,0,1,1,False,False,False,True,False,False,False,True
+zh_0205242,包装好简陋……还是日亚的包装比较用心些…竟然没有折叠勺子……怪自己没看清楚…,0,1,1,False,False,False,True,False,False,False,True
+zh_0208296,书籍质量很好，印刷也很不错。但快递速度太慢了，屡次推延也不通知告知。,0,1,1,False,False,False,True,True,False,False,True
+zh_0234048,手机款式与金属外壳很漂亮，手感好！商家还有手机壳等礼品送！但是手机的内存虽然现实内存有16G但是只有2G可以使用，而且2G内存一多半被手机自带的软件占用了，比如：斗地主、百度手机、百度搜索、搜狗搜索、读书软件，等等，这些软件都是不能卸载的软件！商家其他方面做的都不错，但是最重要的手机本身却出现了问题！希望商家可以解决这样的问题！,0,1,1,False,False,False,True,True,False,False,True
+zh_0982443,挺好的，价格实惠，质量也可以，还会来买的！,0,1,1,False,False,False,False,False,False,False,True
+zh_0776085,耳机连上蓝牙之后，手机稍微远点就不稳定了，声音断断续续。 而且充电接口是开放的，还冲上，运动的时候很有可能被汗水打湿。 至于音质嘛，不到一百的蓝牙耳机，能出声音就不错了。 最后入了骨传导耳机，虽说得六百软妹币吧，戴着确实方便，我在这儿免费安利下,0,1,1,False,False,False,True,False,False,False,True
+zh_0941356,还不错，就是感觉玻璃厚度不够，不知道能不能装热的东西！,0,1,1,False,False,False,True,False,False,False,True
+zh_0796757,长得还可以 烧水烧开速度挺快的 就是声音有点大 并且最后烧开的时候喷出了大量的雾气,0,1,1,False,False,False,False,False,False,False,True
+zh_0089397,外观很好看 时间每天都差一点 隔段时间再看看吧总的来说说不错,0,1,1,False,False,False,True,False,False,False,True
+zh_0877755,小朋友很喜欢的一本书，能认识太阳系的所有星球了！,0,1,1,False,False,False,False,False,False,False,True
+zh_0198252,我女三年级，看完孩子有点害怕，可能也是科幻小说的原因吧。定了许友彬的全系列，估计孩子再大一些能好点,0,1,1,False,False,False,False,False,False,False,True
+zh_0300341,第一次送来的里面竟然还有尘土，外表还有指纹和划痕，在亚马逊买过这么多东西，头一次遇到这种情况。 还好换货后基本是全新的，使用上没有啥问题，在手持设备中吸力算不错的，额定功率20W，锂电池相对充电速度也能接受。顺便发现百得国外官网有新款20V锂电的，额定功率35W，吸力更大，可惜目前还没有国行产品，海淘还需要买110V转220V，也没保修。,0,1,1,False,False,False,True,False,False,False,True
+zh_0157312,“ZooKeeper状态会在所有服务端所组成的全部安装中进行复制。” 体会一下。,0,1,1,False,False,False,False,False,False,False,True
+zh_0289684,到货很迅速，头天晚上下单，第二天中午就到了,0,1,1,False,False,False,False,False,False,False,True
+zh_0751594,没打开前 看到托马斯的快递盒子 超喜欢 超有爱 赞赞哒 萌萌哒 不错 亚马逊加油！,0,1,1,False,False,False,True,False,False,False,True
+zh_0778308,杯子很不错，但颜色要比图片看起来深一些。,0,1,1,False,False,False,True,True,False,False,True
+zh_0851861,由于从美国购买原版比较贵和费事，我就买了世界图书出版社的影印版，但装订比较不好，书皮印的比书页还短，也有点磨损。就影印版这个价格也不便宜，我对装订有点不满。然而，这是E. Wolf的传世经典，值得购买。,0,1,1,False,False,False,True,True,False,False,True
+zh_0936597,收到，有点太小，还有一个有裂纹，但包装盒挺精致。,0,1,1,False,False,False,False,True,False,False,True
+zh_0381284,以前在商场买过3瓶了 第一次在网上购香水 便宜的没话说 也只能当空气清新剂了,0,1,1,False,False,False,True,False,False,False,True
+zh_0627076,鞋子收到了，物流给力！鞋子刚穿上，大小适中，轻便！好评！五星！,0,1,1,False,False,False,False,False,False,False,True
+zh_0818793,自己家是在居然之家买的，用的摩恩非常好用，特价款大概1000多块钱的样子，所以推荐给妈妈用，看亚马逊这款产品写的原价近3000块钱，觉得性价比很高，其实我也不是非得信所谓的原价怎么怎么样的，但是摩恩的东西本身就不便宜，一般亚马逊卖的肯定比商场便宜，应该是合适的，结果水槽倒是够大，可是落水部分没有那个提篮，我想你们一定是把好几年前的产品拿出来了，网购果然需谨慎，但是东西都安上了，也不能退什么的了，就是心里觉得别扭，更何况，老妈往出抠脏东西的时候手被划破了，正常有提篮的根本不会这样。,0,1,1,False,False,False,True,True,False,False,True
+zh_0795481,安装时家里的沙发没弄好，没有很好的测试电视高度，现在想改高度，安装师付说需要再收费！,0,1,1,False,False,False,True,False,False,False,True
+zh_0163011,看评论说鞋子尺码偏小的，所以在下单时特意选大一个码，本来穿40的，选41码穿上刚刚好，鞋子确实很轻，脚感也很舒服，,0,1,1,False,False,False,False,False,False,False,True
+zh_0251362,看了一部分了，是从教会角度讲述教堂建筑的，还有一些时代的建筑特色。总的来说，对于不懂教会文化的人来讲，还是有些烧脑。,0,1,1,False,False,False,True,False,False,False,True
+zh_0544856,本书的内容还是很有料的，值得每一位读者去读，只是当我收到货的时候纸张排版不均匀，花这么多钱，感觉不值,0,1,1,False,False,False,True,True,False,False,True
+zh_0446521,画面和故事都不错，只可惜了是硬皮封面，很不方便小孩子翻阅，尤其是年龄小的,0,1,1,False,False,False,True,False,False,False,True
+zh_0135859,老外的店，国人黑它的多，产品也是美的， 用了二月没问题，,0,1,1,False,False,False,True,False,False,False,True
+zh_0750195,没看到货前一直很犹豫商品的质量，见到货后还是挺满意的，空间挺大。不过感觉价钱还是有些贵。,0,1,1,False,False,False,True,True,False,False,True
+zh_0515909,题目比内容吸引人。但精彩程度不如推荐的那般。为了保持主线故事的连贯性，有些小故事蛮牵强附会的。,0,1,1,False,False,False,True,True,False,False,True
+zh_0441602,昨天收到货了，外包装有点破破的，也不知道是不是正品,0,1,1,False,False,False,True,False,False,False,True
+zh_0967903,内容和入门都算方便、简洁、好评。 适合入门人员使用。 但是书本本身质量很差劲，一定不是物流造成的，包装外观很新，但是书本很破，物流怎么做得到，亚马逊没有管理好。,0,1,1,False,False,False,True,True,False,False,True
+zh_0581754,昨天收到笔之后就拿回家试了试，感觉写字并不是像手上这只78G这么顺滑。不知道是因为新笔没掌握好，还是原来就是这样的。,0,1,1,False,False,False,True,False,False,False,True
+zh_0430566,这次订的苹果运送时间太长。也许是中间有些误会。但最后送到的苹果质量可以。,0,1,1,False,False,False,False,True,False,False,True
+zh_0474623,非常棒和店里卖的一样！三天就到家了！你值得拥有！,0,1,1,False,False,False,False,False,False,False,True
+zh_0435716,壶很棒，就是快递员太凶了，影响购物体验。,0,1,1,False,False,False,False,False,False,False,True
+zh_0440549,口感挺好的，口也不干。价格方面优惠力度挺大！,0,1,1,False,False,False,True,False,False,False,True
+zh_0654852,挺好的，我一直在用这个，感觉好！以后会继续用！,0,1,1,False,False,False,False,False,False,False,True
+zh_0191352,理论多于实践，看看可以，自己操作起来比较不容易,0,1,1,False,False,False,True,False,False,False,True
+zh_0693757,颜色不像图片那么鲜亮。其它还可以。配送蛮快的。是从陕西配送过来的。,0,1,1,False,False,False,True,False,False,False,True
+zh_0618958,帮朋友买的，评价不错。 很好，以前从不去评价，不知道浪费了多少积分，现在知道积分可以换钱，就要好好评价了，后来我就把这段话复制走了，既能赚积分，还省事，走到哪复制到哪，最重要的是，不用认真的评论了，不用想还差多少字，直接发出就可以了，推荐给大家！！,0,1,1,False,False,False,True,False,False,False,True
+zh_0456388,和其他书的排版不统一， 希望能跟新一下， 像金刚经那样排版。,0,1,1,False,False,False,True,False,False,False,True
+zh_0229731,质量不错 还是挺稳的 就是有点脏 要擦擦,0,1,1,False,False,False,True,False,False,False,True
+zh_0905980,粉饼比较喜欢，细腻又均匀，持久性不错。卸妆油很不好，越洗越油，得用洗面奶洗数次才可洗干净。BB和粉底液比较干，不排除和气候有关的可能，谢谢卖家的小礼物，就是刚买了就降价了。,0,1,1,False,False,False,True,False,False,False,True
+zh_0467355,非常满意！下午4点下单晚上十一点快递员送到家！包装的非常细心，去实体店看货，比实体店的商品还要新！,0,1,1,False,False,False,False,False,False,False,True
+zh_0019965,尺寸太大！可以换小码的么？穿上去感觉还不错！,0,1,1,False,False,False,True,False,False,False,True
+zh_0107001,写了好多，但都没有深入，随便看看打发时间还可以，其他就算了。,0,1,1,False,False,False,True,True,False,False,True
+zh_0225208,还算行吧，就是手机有点卡，16g的内存可用之有10g不到。价格也高了！有点不值。,0,1,1,False,False,False,True,False,False,False,True
+zh_0415865,简介很恰当，作为冷知识的参考确实可以。也就是参考而已。,0,1,1,False,False,False,False,False,False,False,True
+zh_0730354,正在练习中，循序渐进，要求明确，适合初学者，给好评,0,1,1,False,False,False,False,False,False,False,True
+zh_0360068,在亚马逊买东西很放心，质量很好，包装完好，棒棒哒,0,1,1,False,False,False,False,False,False,False,True
+zh_0448994,刚看了第一篇《洗衣机》，就这一篇来看，这本书若称之为学术小品，已经算是高看一眼了。且不论他思考的深度广度如何，就他的某些断言而言，于我是不大能接受的。 如下摘自原文的一段话：“电视机置放于客厅，冰箱靠近厨房，空调悬挂于白墙之上并且总是呼应着床铺。这所有的家电，都有它们的放置秩序。但洗衣机可以出没在所有的方便同管道对接的隐秘之所。洗衣机的场所要求不是取决于人的使用便利，而是取决于房屋的内在结构。它只有装置的语法，没有部署的语法。洗衣机的分布如此地没有规律性（它可以放在阳台，可以放在厨房，可以放在卫生间，可以放在客厅）” 以我浅薄的生活阅历，很少见到洗衣机能放到厨房和客厅的。电视机的放置和空调的放置也并没有这样的呼应关系额。这个对比的角度选取私以为比较牵强。 不过还是值得无聊的时候翻一翻的，当然，有电子版更好，毕竟省钱。,0,1,1,False,False,False,True,True,False,False,True
+zh_0555314,NIKE官方旗舰店 夏末优惠 所有款式全部最低折扣 您还在等什么?快快选购吧,0,1,1,False,False,False,False,False,False,False,True
+zh_0758837,初中生才喜欢看的言情小说吧，不知道为什么会推荐这本小说,0,1,1,False,False,False,True,False,False,False,True
+zh_0957644,流畅度没话说。微软的app都很好用，适合办公。IE也好用。 但··是····QQ信息不推送！！微信、支付宝的功能比其他系统的版本少很多！整条街、整个卖场都找不到相应的手机套！,0,1,1,False,False,False,True,True,False,False,True
+zh_0895910,刚买了就秒杀价，便宜了一半，很亏，质量很好,0,1,1,False,False,False,False,False,False,False,True
+zh_0780215,袖子特别长，领子特别大，手感还不错，象车间工人的工作服。,0,1,1,False,False,False,True,False,False,False,True
+zh_0384406,书角坏了哦，不过不影响阅读，第一次在亚马逊买东西,0,1,1,False,False,False,True,True,False,False,True
+zh_0515404,衣服样式挺喜欢的，只是这尺寸偏差得太大了。同一批品牌和尺码的衣服，这件要大了不是一点点。其他185cm以上的大个穿，还不能是瘦的那种。,0,1,1,False,False,False,True,True,False,False,True
+zh_0775019,喜欢这款产品，不油腻，不刺激皮肤。保湿效果好,0,1,1,False,False,False,True,False,False,False,True
+zh_0473217,错字漏字蛮多，影响阅读，不过毕竟是把几篇好文章搁在一块，能方便的横向比较,0,1,1,False,False,False,True,True,False,False,True
+zh_0331177,好使，刚拿到有点不适应，但用用确实不错，适合大手，姿势也舒服。但是东西工艺方面稍有瑕疵，拼接缝隙不大一致，不过不影响使用。如果长期未使用会关闭，需要按一下随便哪个按键激活，还挺好的一个功能。目前使用没问题，比较精准，推荐。,0,1,1,False,False,False,True,True,False,False,True
+zh_0990193,历史要讲事实，更要正确的观点。总体上说，这本书还行。,0,1,1,False,False,False,False,False,False,False,True
+zh_0372133,表收到了，很满意喜欢这个表觉得很好看差价这个大想着售后快递会好很多，我想吐槽的是他的快递，收到的时候想打人了,0,1,1,False,False,False,False,False,False,False,True
+zh_0289660,不如龟牌的白金滋润霜好，毕竟两者的价格区别在那里摆着呢。,0,1,1,False,False,False,True,False,False,False,True
+zh_0716316,物流很快就是眼镜也一般有点小瑕疵，不过这价位的还能接受，感觉和我们地摊上10块钱的眼镜差不多,0,1,1,False,False,False,True,True,False,False,True
+zh_0060547,当初是看了那套电影冲动买的，里面有些观点个人不是很赞同,0,1,1,False,False,False,True,False,False,False,True
+zh_0301740,与苹果没法比，心率监测功能还可容易，其他一般,0,1,1,False,False,False,True,False,False,False,True
+zh_0082214,我的脚是标准38码，这次买的7.5码刚刚好，不大也不小，之前一直不敢买这个鞋，觉得看起来有点硬，结果穿上后特别舒服，一点都不硬，角度特别合适，显脚小，好看极啦！,0,1,1,False,False,False,True,False,False,False,True
+zh_0218705,确实对这部作品有点儿期待太高，还是喜欢推理侦探小说，对东野圭吾的温情小说真心不感兴趣呀！,0,1,1,False,False,False,True,False,False,False,True
+zh_0349089,什么都挺好的，唯一的缺点就是盖子的密封圈橡胶味道特别的大，非常受不了，用久了也一样，味道始终很大,0,1,1,False,False,False,True,False,False,False,True
+zh_0146443,颜色靓丽，很轻移动方便，很稳当，正常楼层高度足够了。,0,1,1,False,False,False,False,False,False,False,True
+zh_0763125,就是快递没有送上门，还要我自己去拿，这算什么。,0,1,1,False,False,False,True,False,False,False,True
+zh_0870631,假象有100万如何分配，回答中有些想法还不错，不过还是先赚到100万把,0,1,1,False,False,False,True,True,False,False,True
+zh_0907556,写的有些啰嗦，可以当作了解北欧文化和生活方式是读物。个人觉得北欧的生活在纸面上是挺好的，对于我们或多或少有些启示，但是每个民族、每个区域都有各自独到的地方，能多了解一下挺好。我还是喜欢自己的文化更多一些,0,1,1,False,False,False,False,True,False,False,True
+zh_0338097,东西很好可是外表有伤痕不只是快递还是怎么的,0,1,1,False,False,False,True,True,False,False,True
+zh_0937173,还可以。不过不知道是不是真的。味道还行。,0,1,1,False,False,False,True,True,False,False,True
+zh_0590369,全是文字的这本书很难去理解，看过纸质版的还是很不错。,0,1,1,False,False,False,True,False,False,False,True
+zh_0799607,不过我打2颗星的主要原因是我秒杀之后过几天，他降价了。。,0,1,1,False,False,False,True,True,False,False,True
+zh_0564913,到货挺及时，只是沒有附发票，保修又必须发票。你们知道的。,0,1,1,False,False,False,False,True,False,False,True
+zh_0660746,物流较快，本来鞋略微偏小，想退，客服态度很好，详细讲解退货流程及注意事项。后来，再试穿，认为还好。遂不退货。整个体验很满意。,0,1,1,False,False,False,True,False,False,False,True
+zh_0036908,图片漂亮，实物塑料感很强。冲洗压力不够，感觉没啥用。不过亚马逊的服务很好，退货很顺利。,0,1,1,False,False,False,True,True,False,False,True
+zh_0811537,红酒口感还马马虎虎，对得起这个价位。希望是原装进口货！,0,1,1,False,False,False,False,False,False,False,True
+zh_0401808,小说内容为影印版，怪不得较便宜，不知道Vintage这个系列多少书是这样。内容很好，必读书之一。,0,1,1,False,False,False,True,False,False,False,True
+zh_0993826,不过倒是适合老年人看，字是挺大的，行距也挺大，翻了翻，应该是删减版，,0,1,1,False,False,False,True,True,False,False,True
+zh_0844795,挺实用的，内容也很丰富，比较适合正规的老师用于学习课程当中。,0,1,1,False,False,False,False,False,False,False,True
+zh_0894096,帮友人购买的，很满意！纸张没问题，字体清晰！,0,1,1,False,False,False,True,False,False,False,True
+zh_0146317,皮带很厚实柔软，宽度就是我想要的，很好。,0,1,1,False,False,False,False,False,False,False,True
+zh_0067869,运送过程肯定被摔过，不过我们买的是知识，不是形式。但我希望亚马逊以后再物流上还是多花点心思,0,1,1,False,False,False,True,True,False,False,True
+zh_0094422,该小说最大的特点在于人物内心活动的刻画，但这或许也是该部小说的一大诟病。,0,1,1,False,False,False,False,True,False,False,True
+zh_0931997,点不了，后来再淘宝官方买的一点就亮啊，还有说明书呢，比起这个可是正品多了,0,1,1,False,False,False,True,True,False,False,True
+zh_0547692,还好，地铁上刷一遍，基本是总结了几位小咖的言论,0,1,1,False,False,False,False,False,False,False,True
+zh_0776485,明明课本里有大量的听力内容，却没有MP3光盘。网上找了找，只有课文和单词的听力，后面练习的听力完全没有。 水平来说，对于N1有些简单，听力的速度也比考试要慢。比较适合N2开始向N1学习的人，如果准备N1考试的话，建议还是不要用了。 课文内容还可以，就是有些过时了，里面的语法虽然现在的N1考试还在用，但是明显有些跟不上时代的变化了。 N1初学者比较适合用来找找自信。,0,1,1,False,False,False,True,True,False,False,True
+zh_0170445,鞋子不是真皮的，穿起来不是很舒服，不过保暖性不错，留着当家居鞋穿吧,0,1,1,False,False,False,True,True,False,False,True
+zh_0038842,艺术感和质感都很不错，非常贴合kpw，但材质有一股淡淡的化工产品气味，我将它在风中吹了两天，感觉才稍微好点。,0,1,1,False,False,False,True,True,False,False,True
+zh_0949812,简介几个大品牌，简介功能，简介明星与表款的代言关系。,0,1,1,False,False,False,False,False,False,False,True
+zh_0767073,非常满意，无瑕疵，和实体店一样，而且便宜了150元，这鞋是越南产，亚马逊物流也很快，赞一个，希望能有更多优惠,0,1,1,False,False,False,True,False,False,False,True
+zh_0526034,书已经在看了，字体清晰，内容丰富，关键每章节都有例题！特别满意！,0,1,1,False,False,False,True,False,False,False,True
+zh_0877160,用了，没什么反应。效果还不知道。只是有点儿郁闷一号店才25元，价格悬殊很大。,0,1,1,False,False,False,True,True,False,False,True
+zh_0869661,买的是全新品，但是感觉书看着有点旧，页边有翻多了之后的泛黄，而且还有轻微的折痕……其他方面还不错,0,1,1,False,False,False,True,True,False,False,True
+zh_0200026,打发很快也就5分钟吧。小熊太给力了！一切很顺手，也没有烧焦味。就是和面功能一直没用。,0,1,1,False,False,False,True,False,False,False,True
+zh_0902522,外形还挺好看的，通勤背着 背带设计不好，背着有点硌 没有外袋，出去玩不方便,0,1,1,False,False,False,True,False,False,False,True
+zh_0182947,邮递包装很不错，产品有瑕疵，东西很便宜就不打算更换了。,0,1,1,False,False,False,True,False,False,False,True
+zh_0726054,精致，典雅，做工精良，大气秀气！物超所值！,0,1,1,False,False,False,False,False,False,False,True
+zh_0385720,衣服质量很好，但是尺寸太太太大了，亚马逊给办理了退货，服务态度很好，但我的本意是要买衣服，希望亚马逊能在购买页面有中外尺码的对比和提醒,0,1,1,False,False,False,False,True,False,False,True
+zh_0611404,之前在朋友处看了一小部分，觉得不错，但仔细读后有些失望。,0,1,1,False,False,False,True,True,False,False,True
+zh_0003445,亚马逊送货的速度超快，而且预计的也超准。,0,1,1,False,False,False,False,False,False,False,True
+zh_0657244,对照较高的定价，做工还可提升；触摸式开关太灵敏，有时会自动开关。呵呵,0,1,1,False,False,False,False,False,False,False,True
+zh_0135490,可能比较符合现在美国的潮流，但是说媲美冰火，就有点想多了。,0,1,1,False,False,False,False,True,False,False,True
+zh_0069021,首先要说的是，《喧哗与骚动》不是李文俊翻译的，李文俊只是翻译了第四册短篇小说中的几篇，因为名气太大，所以译者里面有他的名字，只是挂名。其次，这套书的版权页是一个总的版权页，所以你如果要知道这4册书具体究竟是谁翻译的，还是很费力的，也就是每一册书不是独立的版权页。不过第四册的短篇小说选，很多却是名家翻译的。在小说结尾附上了译者的名字。总的来看，译文还是过得去的，物有所值吧。,0,1,1,False,False,False,True,True,False,False,True
+zh_0444837,东西挺好，就是物流实在是太慢了，比预定到达时间慢了几天,0,1,1,False,False,False,False,False,False,False,True
+zh_0268512,比较满意，刚用上，饭挺香的。物流比较慢。,0,1,1,False,False,False,False,False,False,False,True
+zh_0760606,音乐不错，包装质量一般，个人感觉不像正品,0,1,1,False,False,False,True,False,False,False,True
+zh_0512796,不要插图就行，更多的事文字才好，毕竟看的是内容，多点文字少点插画，价格在便宜点，就更好了,0,1,1,False,False,False,True,False,False,False,True
+zh_0626965,还不错，132入手，淘宝上118带赠品的，一样。,0,1,1,False,False,False,True,False,False,False,True
+zh_0328240,刚开始还是挺不错的，穿着舒服，洗了几次，起球了,0,1,1,False,False,False,True,False,False,False,True
+zh_0391958,特别喜欢！感谢有这本书！摇滚永远都不会完！,0,1,1,False,False,False,True,False,False,False,True
+zh_0672929,质量没得说，里面可以放下一部较大尺寸手机，功能分隔合理，非常喜欢，性价比无敌。,0,1,1,False,False,False,True,False,False,False,True
+zh_0611164,买它是因为有赠光盘~ 我以为是可以视频教学的。。原来只有mp3，只能播放声音的，，，， 如果是视频情景式教学比较好~,0,1,1,False,False,False,False,False,False,False,True
+zh_0200445,很有意思，贴切小孩子生活！孩子们下课抢着看！推荐！,0,1,1,False,False,False,False,False,False,False,True
+zh_0439164,不要再说定制了，真的配不上我的吉他！看在速度上，好评吧,0,1,1,False,False,False,True,False,False,False,True
+zh_0595454,造型独特，充电迅速，目前刚用不到一周，唯一的问题是lighting接线口会有松动，我用的是iphone6。好评。,0,1,1,False,False,False,True,False,False,False,True
+zh_0415851,书还是不错的，就是发来8册弄错了一本，多了第一册，却少了另外一册！,0,1,1,False,False,False,True,True,False,False,True
+zh_0323721,鞋子质量不错，但是对脚宽的人不友好，系带方式不方便，每次穿脱费时间。,0,1,1,False,False,False,True,True,False,False,True
+zh_0585585,衣服很厚实。衣服的标签上写的是木工工作服，店铺无说明。色差明显，实物颜色偏灰。袖子和下摆过长，但摄影技术实在了得，佩服。,0,1,1,False,False,False,True,True,False,False,True
+zh_0076416,小巧方便，音质不错，物流也很给力，送了两趟态度还很好，赞一个,0,1,1,False,False,False,True,False,False,False,True
+zh_0372647,除了废话太多之外，还算是一本很通俗易懂的会计入门书，行外人可以一读。,0,1,1,False,False,False,False,False,False,False,True
+zh_0143298,书还不错，就是随书的光盘读不了，在几台计算机上试了都不行,0,1,1,False,False,False,True,False,False,False,True
+zh_0280848,正版书籍，很好。有个字有点漏墨_学习当中，后面不知道有没有漏墨，有代观察中。,0,1,1,False,False,False,True,False,False,False,True
+zh_0217703,还挺合适，有点小，但是还是怕会脱胶，虽然目前没有,0,1,1,False,False,False,True,True,False,False,True
+zh_0037486,大枣的个头挺大，新鲜度也可以，但是甜度差太多，不像是新疆产的。以后用来熬粥吃吧。,0,1,1,False,False,False,True,True,False,False,True
+zh_0069506,开之后 那个盖子好像盖不住 小孩吃着有点拉稀,0,1,1,False,False,False,True,False,False,False,True
+zh_0526513,书是不错 很好的 就是送来是损坏了书 有缺陷 哎,0,1,1,False,False,False,True,False,False,False,True
+zh_0455769,因为喜欢神秘博士所以买的。整体还可以吧。但是。。。。为什么没有底呢?,0,1,1,False,False,False,True,True,False,False,True
+zh_0363595,选S5是因为它电池可更换，存储可扩展，用了后感觉真不错。,0,1,1,False,False,False,True,False,False,False,True
+zh_0634655,买了一个，效果比我妹妹买来给她宝宝剃头的飞利浦的差多了。建议大家还是直接买飞利浦的得了,0,1,1,False,False,False,False,False,False,False,True
+zh_0856848,物流很快，我是自己加钱买了贴膜和包包的。寄过来之后发现原来机子自带了包包和贴膜，白买了一套。为什么不在商品说明上写明白自带呢。。贴膜操作很难用。。。机子在各辞典间切换不好用。觉得挺麻烦的。。,1,0,0,False,False,False,True,False,False,False,True
+zh_0039266,薄薄一片，小不丁点，太贵太贵。买时找的不够，再搜索时已枉然！,1,0,0,False,False,False,True,False,False,False,True
+zh_0728563,"其实是无法评论的，因为无法在收到货品的时候就把书读完，细细品味。只是想说物流太差，放在云柜差不多十天以后才拿到手，因为云柜坏了，打不开，微信上和电话上报修至少四次以上才得以解决。而本人是个急性子的人，要拿到东东做为礼物送人，结果误了时机不说，休息日在家哪也不敢去，只等着拿东西，结果空等一天。唉,无语。",1,0,0,False,False,False,True,True,False,False,True
+zh_0541722,给我发的wifi连接总掉线，老死机。其他都好用，七天内退货也不给我退，我能怎么办？ ಠ╭╮ಠ 上条评论被删了。我看看打四颗星能不能发,1,0,0,False,False,False,True,False,False,False,True
+zh_0483554,内容不严肃，居然还有英文。这本书内容来看根本写的就不是小说，更偏重历史，但内容不够严肃唉，看到又像是在写小说。,1,0,0,False,False,False,True,True,False,False,True
+zh_0522721,暂未用过该品牌但是包装不好，笔表面沾了些碎末局部有污渍，外面封装的标签有撕碎污染，里面标签显示EUR 17.9，可能是运输过程不规范吧,1,0,0,False,False,False,True,True,False,False,True
+zh_0129021,用了一个多月，结果今天忘在了高铁上。 再来买一个，结果发现便宜了100块，心伤透了,1,0,0,False,False,False,False,False,False,False,True
+zh_0431341,建议商家今后发货时，最好把一份订单的宝贝，用一个包装发出来，分开包装发货，容易引起买家的误会与投诉。,1,0,0,False,False,False,False,False,False,False,True
+zh_0913008,在店里买的可以扫码，为什么在亚马逊买的不行，怀疑是假货,1,0,0,False,False,False,True,False,False,False,True
+zh_0573121,给家里买的，当时有病人每天都要换洗大量衣物。以后应该不会买了。TAT,1,0,0,False,False,False,True,False,False,False,True
+zh_0966764,没有包装盒不说以前收到的都有一层薄膜，这次的啥都没有感觉咋个不对呢,1,0,0,False,False,False,True,False,False,False,True
+zh_0135946,塑料，稍有味道。过两天再看看，如有就退货。国产，做工一般，价格有点贵了，不如买国产全不锈钢。,1,0,0,False,False,False,True,False,False,False,True
+zh_0826575,确实是棉质地，看精梳度，让人明白一分钱一分货，哈哈，不值得期待的。,1,0,0,False,False,False,True,False,False,False,True
+zh_0070105,不知道是真的假的 反正第一天穿上的时候一直会发出奇怪的声音,1,0,0,False,False,False,True,False,False,False,True
+zh_0810184,亚马逊太不厚道，昨日收到机子2299元，今天就降了三百元，这样做叫我怎么信赖亚马逊？希望退还我三百元。,1,0,0,False,False,False,True,False,False,False,True
+zh_0039466,为什么，我订单200多，你们改成300多了，给我加了三个，洗洁精……你们以为这样做就达到什么目的了吗？,1,0,0,False,False,False,False,False,False,False,True
+zh_0502585,建议买过教材的 真题的 就不用再买了 重复,1,0,0,False,False,False,True,False,False,False,True
+zh_0375235,美国的都是美国歌曲，琴的按键已经坏了一个。现在看还是买国内费雪的就行。,1,0,0,False,False,False,False,False,False,False,True
+zh_0268984,亚马逊90多元订单分两家发货，两家都收快递费，你们现在这是怎么了？,1,0,0,False,False,False,False,False,False,False,True
+zh_0072793,亚马逊的品质让人放心，就以该商品为例价格要比其他网站实惠。但就魅蓝note5这段时间使用感觉非常一般，真的很失望没感觉到有什么突破。,1,0,0,False,False,False,True,True,False,False,True
+zh_0714636,一般，实物没有图片显的上档次，小小的一盒拿在手上，实在不显好，送人凑合用,1,0,0,False,False,False,True,False,False,False,True
+zh_0821702,实在不明白，他们打中题目的几率怎么那么高？,1,0,0,False,False,False,True,False,False,False,True
+zh_0440142,实在是无语了 ，写了这么长时间，买了正版，结果还差一部分才完结。另外书的排版非常烂。没有目录。,1,0,0,False,False,False,True,False,False,False,True
+zh_0141135,自己都管不好自己，也就不可能管好别人。哪怕是你禁锢了别人的身躯，你也束缚不了他人的思想。,1,0,0,False,False,False,True,False,False,False,True
+zh_0446875,"如何在线上注册保修,根本找不到机身码,求助??????",1,0,0,False,False,False,True,False,False,False,True
+zh_0707436,题目是一本一本的 便宜是便宜 连个目录都没有 纸的颜色有的是白的 有的是发黄的 不一样 有的是双色印刷 有的是单色,1,0,0,False,False,False,True,False,False,False,True
+zh_0942467,在一个外国网站，想买一个外国货，结果买到国产的。,1,0,0,False,False,False,False,False,False,False,True
+zh_0234732,烘烤时机子有异味，一股烧塑料的味道，不知是什么原因。,1,0,0,False,False,False,True,False,False,False,True
+zh_0359776,在亚马逊上买到盗版书是不是运气太差啊，哎，自认倒霉，凑合着看吧,1,0,0,False,False,False,True,False,False,False,True
+zh_0688314,没试，五星吧。字不够，好，三星。不让给三星?差评!,1,0,0,False,False,False,True,False,False,False,True
+zh_0886925,我收到的是没有塑模密封的，就装在一个口袋了，感觉假假的，里面像胶水一样的液体。涂了下就有点淡淡的香,1,0,0,False,False,False,True,False,False,False,True
+zh_0331838,请问谁有附录的CD 音频文件，电子版的 下载链接已经失效,1,0,0,False,False,False,False,False,False,False,True
+zh_0364722,看到支持中文，又这么便宜，一冲动买下了 结果直到今天都还没开始用，郁闷……,1,0,0,False,False,False,True,False,False,False,True
+zh_0085024,买了十几天才送到，差评！考研时间很珍贵的！,1,0,0,False,False,False,False,False,False,False,True
+zh_0633963,我觉得作者的能力还不足以驾驭他想表达的思想。,1,0,0,False,False,False,True,False,False,False,True
+zh_0034263,毫无疑问，这是一本好书，但是翻译太糟糕！,1,0,0,False,False,False,True,True,False,False,True
+zh_0872668,拆开一是别人退的货，而且那人还穿过，因为领部袖口和胸部都有磨损，已经起了不少毛球，这让我非常不爽。在亚马逊上买过很多次衣服，第一次遇到这种情况，希望不要再有下次。,1,0,0,False,False,False,True,False,False,False,True
+zh_0157542,手机还行，用几个月就开始没信号，换了主板还是没信号，现在在家里呆着当平板,1,0,0,False,False,False,True,False,False,False,True
+zh_0031603,尺寸的确小 怪自己当初没看清楚 被图片误导了,1,0,0,False,False,False,True,False,False,False,True
+zh_0737331,触摸屏的设计，会不会小心碰到键，造成误操作。,1,0,0,False,False,False,True,False,False,False,True
+zh_0446827,建议买精装，因为书本身比较薄，送过来的时候包裹包装得很简单，连泡沫保护都没有，放在快递袋子里就直接送过来了,1,0,0,False,False,False,True,False,False,False,True
+zh_0338417,买啦很多书一起发的，拆开瞬间觉得心都碎啦，悉悉散散的一堆，而且很多都没有塑封！,1,0,0,False,False,False,True,False,False,False,True
+zh_0203393,椅子不错，但是发票等了一个月了就是寄不到！ 联系客服说：忘开！ 再联系客服：补开，平信、半月后到! 半月后没见着！于是再联系客服，回复：寄丢啦！ 天啊！这是为什么？,1,0,0,False,False,False,True,True,False,False,True
+zh_0952214,质感其实不好，很单薄，不挺。线头特别多，纽扣的缝制做工很差。同价位与国内品牌比也没什么优势,1,0,0,False,False,False,True,False,False,False,True
+zh_0206689,飘柔的兰花洗发露，有袋子装着。这瓶人参的没有袋子，有一个大约是保护盖子的塑料东东最后躺在箱子里。瓶盖像是被打开过，不过没漏。还有，买的时候理想当然的看成了洗发水，幸亏收货后看了下评论，不然惨了。,1,0,0,False,False,False,True,True,False,False,True
+zh_0838956,因为本身经常做排版工作，所以打开这本书的时候真的被吓了一跳——真的我非常非常震惊于正文的仿宋字体，也许是我美工癌晚期吧。。。,1,0,0,False,False,False,False,False,False,False,True
+zh_0018274,这次的快递员哦，本来约好的是周六上午，打电话给我说有事要改到晚上。我说改就改吧，来之前给我个电话，万一我出门呢。结果7点多一个电话说我已经在楼下了！我不在家呀大哥！！因为是到付的，说给我放自提柜，连续打三个电话催我转账=皿=我在外面啊大哥！！有事啊大哥！！还能欠你钱不成？！,1,0,0,False,False,False,True,False,False,False,True
+zh_0161785,是金融巫师系列的总结，如有前面基本就别买了。,1,0,0,False,False,False,True,False,False,False,True
+zh_0625843,用了一年多后，不走了。去洗了一下机芯，又OK了。,1,0,0,False,False,False,True,False,False,False,True
+zh_0768019,快递物流运输时包装破损，书角戳角损坏了，书不是砖头，别扔好不好，我想说：ctm的，很恼火。,1,0,0,False,False,False,True,False,False,False,True
+zh_0857491,我在macbook pro上无法格式化此优盘，还有虽然它默认的格式是exfat 但是依旧无法存储大文件！需要你们的帮助,1,0,0,False,False,False,True,True,False,False,True
+zh_0208106,不是2012吗 发的是13 为什么不提前说一下？,1,0,0,False,False,False,True,False,False,False,True
+zh_0992468,配货很快，但是其中一袋封口完全开启，包装中y有京东的保护带，如果不能保证质量，从京东就能发货，为什哦哦选择亚马逊,1,0,0,False,False,False,True,True,False,False,True
+zh_0302006,和想象中的中棕色不一样，以为是奶咖色，深得多，偏红。,1,0,0,False,False,False,True,False,False,False,True
+zh_0970037,书比较简单，是平装。不值这个价。内容读过后再做评论,1,0,0,False,False,False,True,False,False,False,True
+zh_0272269,不好的地方是，用了几次，白色画板上面就有无法消除的黑印了...,1,0,0,False,False,False,True,False,False,False,True
+zh_0073902,你好 打印照片 选择这个页面布局，打印出来照片都是一个格式的嘛？我试了好几次，都一样的 。还有选择日期，但照片上也没有显示啊？什么情况,1,0,0,False,False,False,True,True,False,False,True
+zh_0921767,打奶泡的部分可真是无语了，基本不能用，还烫了一下。咖啡功能没话说 四星,1,0,0,False,False,False,True,False,False,False,True
+zh_0164386,包装太简陋了！书盒边角都磕瘪了，不如自营的包装好,1,0,0,False,False,False,True,False,False,False,True
+zh_0210105,都说应该有防伪标识，可是这个没看到，所以现在都搞不懂是不是真假啊！,1,0,0,False,False,False,True,True,False,False,True
+zh_0669482,最后好像什么都没有讲清楚就这样结束了！之前感觉有点凑字数 所以教会到底是什么呀的！小小人什么都不解释下嘛,1,0,0,False,False,False,True,False,False,False,True
+zh_0921282,用了两周了，牙刷头起毛了，是我太大力？感觉力度也不如最开始了。其他还好喽,1,0,0,False,False,False,True,False,False,False,True
+zh_0216838,2013年在亚马逊上买了几千元的书，当时为了挑这些书，真是搞的没脾气了，，，购物流程真是让人抓狂！事隔3年了又想回来买书了，但还是没多大改变，看到有活动就是分不清对应活动的商品,1,0,0,False,False,False,True,True,False,False,True
+zh_0778508,书还没看，但是其中一本的封面上有一个小洞，像是被剪刀戳过，穿透过封面又穿透了一张纸。,1,0,0,False,False,False,True,True,False,False,True
+zh_0272929,"买老美的s码买习惯了，以为日版的s也会很大，没想到小的一笔。。。 日版的衣服标签上写的给165以下的人穿的 别听那位老兄说的“所以170，65以内没小肚子的还是买S号”的言论，本人170/57kg，没有肚子，,穿上感觉挤爆了，里面只能穿一件T恤，只好重新装起来，退货太麻烦。准备放咸鱼上出了回血，有没有需要的兄弟或者女生？？",1,0,0,False,False,False,True,False,False,False,True
+zh_0574678,4月购买完，这个月打开了，已经全废了。在家放了6个月 。未见阳光未受潮。这东西保质期应该是多长时间啊？,1,0,0,False,False,False,True,False,False,False,True
+zh_0108338,书的内页和封面都很好，看起来也好看。只是亚马逊合作的如风达快递的恶劣的服务，让这次买的三本书的封面都出现了磕碰痕迹。要不是看在亚马逊不是中企的份上，早就投诉了。希望亚马逊为了自己的名誉着想，以后不要和如风达快递合作。不然的话，我就没有理由要在亚马逊买书了。,1,0,0,False,False,False,True,True,False,False,True
+zh_0138076,第三年已经坏掉，开机无反应，算了毕竟已经三年了！,1,0,0,False,False,False,True,False,False,False,True
+zh_0345392,这款本来不是不粘杯吗，我买了两个都掉色严重，而且包装不一样,1,0,0,False,False,False,True,False,False,False,True
+zh_0305984,真是暴力快递啊，看得我都心疼，算了，不换了！,1,0,0,False,False,False,True,False,False,False,True
+zh_0212440,书挺好的，印刷很不错，就是太贵。 不明白为什么从本地仓库发货还拖延了那么久派送，最慢的国内普通快递也比这个快。。。物流差评，送货员没有联系我还硬说是我没收到信息。。。送货员态度极差，物流慢成龟速。。。,1,0,0,False,False,False,True,False,False,False,True
+zh_0157500,买这款耳机之前也挑了很久，价格太低不信任，太高又觉得不怎么换算，，最后选择了这款中间价格的耳机，使用时感觉声音很低，封闭性不错，外干扰小了，就是调节重音那个按钮有点坑爹，一段时间就没用了，还有要小心外面那个硅胶套可能会脱落，掉了就坑爹了,1,0,0,False,False,False,True,False,False,False,True
+zh_0989169,书本很不错！但是亚马逊的构造有问题不好，刚收到书就降价70块，还没法补差价，必须退回再买，这书30斤重，想想算了！再然后购买的时候填写很清楚要发票，发票，发票，还是没有邮寄！好需催要，也不知道什么时候能到手！诶,1,0,0,False,False,False,True,True,False,False,True
+zh_0850222,反复提醒发票要随书一起发来，最终还是没有，非要单独寄快递发一张发票，资源浪费，也耽误我时间。这世上想不通的事情真多，这次又多了一件，哎~~~~,1,0,0,False,False,False,True,False,False,False,True
+zh_0819348,每次测出的数值都不一样，而且偏差有点大。,1,0,0,False,False,False,True,False,False,False,True
+zh_0837762,但是书都湿了，发货的时候怎么不用纸箱包装一下，很不满意,1,0,0,False,False,False,True,True,False,False,True
+zh_0725827,内容很喜欢，电子版排版很糟糕，在kindle上无法正常阅读，有没有人处理一下，实例代码大小不一。,1,0,0,False,False,False,True,False,False,False,True
+zh_0733140,感觉比某家的贵 而且质量看起来也不咋样,1,0,0,False,False,False,True,False,False,False,True
+zh_0465387,此类书籍大多大同小异，这一本内容一般，初入销售行业可以看看,1,0,0,False,False,False,False,False,False,False,True
+zh_0334595,精装版和原版有什么区别？凑单买的，原版凑不满只好买这个，味道还是那个味道,1,0,0,False,False,False,True,False,False,False,True
+zh_0581186,翻译的内容略生硬，有些地方读起来不符合汉语的规范,1,0,0,False,False,False,True,False,False,False,True
+zh_0059299,发错货了，我要灰蓝色42，发的是纯灰色42。,1,0,0,False,False,False,False,False,False,False,True
+zh_0457280,写着是非卖品的，应该是买XXXX 送的小礼品吧 眼霜涂着好厚啊，干了后一层泥一样,1,0,0,False,False,False,False,False,False,False,True
+zh_0414966,没什么好说的，就是会出现弹不出硬盘的问题，还是不行，总不能老是强制拔出吧，这样我硬盘寿命还长？,1,0,0,False,False,False,True,False,False,False,True
+zh_0299176,书没什么问题。我是多次买书了，可是没有一次是这样不爽的，花了10天才把书等到，中间还加了个环节说什么我没确认发货！我都付款成功，也扣款成功了还要确认，我不确认就不发货？可以退款吗？如果可以手续不难我当时就退款了。以前为什么没有这道程序？ 现在书收到了，还差一本说是等印刷完毕后到货给我发，实在不行可以退款，谁知道怎么一回事，还是等等吧，三本拿到了丢一本书问题也不大。互联网是快可是也不一定安全，不会操作还是不要买了免得闹心！ 希望那本书能尽快给我补发过来，要不是在失望了，在亚马逊注册账号都很多年了，买的书也不少，这次真是心情很差！,1,0,0,False,False,False,True,True,False,False,True
+zh_0102395,蓝色线基本是不能用了，听的想退货，还好另一根线没问题，,1,0,0,False,False,False,True,False,False,False,True
+zh_0122110,购买第二天收到骗子电话冒充客服…说订单异常退款…所发过来的邮件包括付款信息全部泄漏……第一次体验亚马逊就是这样……令人气愤……可能和卖家全无关系吗……,1,0,0,False,False,False,True,False,False,False,True
+zh_0395562,不好用，回弹扭不好使，热水会直接就下去，用着很闹心。,1,0,0,False,False,False,True,False,False,False,True
+zh_0876983,你好，请问我怎么知道它有没有在充电？我连了充电器，没有看到任何提示，不知道是不是没有充电成功,1,0,0,False,False,False,True,False,False,False,True
+zh_0222978,肯定是没有24小时的持久度，也就一个上午，上色很深。,1,0,0,False,False,False,True,False,False,False,True
+zh_0830638,这个版本不是很清楚，而且字比古籍出版社的小。还是古籍出版社的好。古籍出版社的版本就收藏了，这个临帖用。,1,0,0,False,False,False,True,False,False,False,True
+zh_0887346,买错了…买成干性皮肤用的，怪不得滑溜溜总觉得洗不干净…油皮请注意别买错了,1,0,0,False,False,False,True,False,False,False,True
+zh_0207992,我本来想退货的，后面要邮费，想想不值不退了，书嘛还可以。将就用,1,0,0,False,False,False,True,False,False,False,True
+zh_0632803,和其他人一样的感觉，就是很透，我买的黑色还好，如果是白色就感觉很明显了，另外170 65kg还是要买M码的啊，小码绝对小了……不说了，我要去退货了😭,1,0,0,False,False,False,True,False,False,False,True
+zh_0842649,没看出什么东西来，可能是我的水平太低，不是很能理解这本书，看不出所以然来。,1,0,0,False,False,False,True,False,False,False,True
+zh_0959324,用了几次 不习惯 总感觉脸上抹上东西别扭的慌 一直扔着 个人原因 什么都用不了 我也不知道好不好,1,0,0,False,False,False,True,False,False,False,True
+zh_0498356,比较贵，而且感觉不像是正品。幸好宝宝能坐一会，不然买的真浪费。,1,0,0,False,False,False,True,False,False,False,True
+zh_0100627,书的装帧什么的没有问题，内容感觉虎头蛇尾，不值得看第二遍,1,0,0,False,False,False,True,False,False,False,True
+zh_0135314,内容不错，但是叠字很严重，隔几页就出现这种情况，非常影响阅读。根据客服的指导更新了kindle固件，但依旧有问题。下载了一本免费书试了一下就没有这种问题，应该不是设备问题。希望只是个例,1,0,0,False,False,False,True,True,False,False,True
+zh_0338908,纸质版说明书太简单，所有详细功能要在pdf文件上看，比较累。,1,0,0,False,False,False,False,False,False,False,True
+zh_0982546,大了，看图以为是好笑的，结果蛮大的，挂在箱子上太显眼。,1,0,0,False,False,False,False,False,False,False,True
+zh_0247187,有些单独颗粒会比较松，问了下买的其它人也这样，看来是普遍现象,1,0,0,False,False,False,False,False,False,False,True
+zh_0453422,书的内容很好，但是装帧实在太差了。第一天拿到就脱胶了……,1,0,0,False,False,False,False,True,False,False,True
+zh_0246026,书发过来就像是一本旧书，包装的挺烂，第一页的胶都有点开了，换货太麻烦懒得退了.,1,0,0,False,False,False,False,False,False,False,True
+zh_0203204,书还是很喜欢的，但是廉价的包装让我很不满意。,1,0,0,False,False,False,True,True,False,False,True
+zh_0022856,送的这个晚安剧场是怎么回事儿 散页不说 关键根本就是乱七八糟的 顺序全部对 甚至一个故事没讲完 后面两个故事没有开头,1,0,0,False,False,False,True,False,False,False,True
+zh_0332537,开头很有意思，还以为会是一场乱世繁花呢，越看越没意思，但是自己买的书，咬咬牙还是要看完。虽然是言情小说，但是结构也太小了。什么都是作者一个人在说！人物性格都靠作者的剖白 而来。这样一来就很没意思啦！,1,0,0,False,False,False,True,True,False,False,True
+zh_0019318,手胶颜色随机，我的是白色拍子，你也不能三个都给我配黑色的手胶啊。。。。。。,1,0,0,False,False,False,True,False,False,False,True
+zh_0767394,亚马逊的买东西体验真的不太好，虽然比较优惠，但是中间经常出现一些幼稚的问题，比如说买了不同店家的同一本书，会默认为是相同订单。买一样东西需要花费很多时间，让人忍不住转去某东买了。,1,0,0,False,False,False,True,True,False,False,True
+zh_0955424,偏简单，很多折纸涉及剪，这样没法再利用很浪费纸，送的纸张质量不好，硬不柔韧。,1,0,0,False,False,False,True,False,False,False,True
+zh_0269151,"书不错,但光碟里只有部分试题,没有模拟试卷,失望",1,0,0,False,False,False,True,True,False,False,True
+zh_0100352,"这个品牌国内卖得贵，貌似和国内是分开经营的吧。这款产地是印度，国内大部分在中国广州产。166,，60宽松。追加评论：质量很差，领口越穿越大,没法穿了！",1,0,0,False,False,False,True,False,False,False,True
+zh_0555621,赠品啊，赠品，拿来卖啊，60元觉得好亏。收货人信息也不写真实名字，不知道怎么搞的，哎,1,0,0,False,False,False,True,False,False,False,True
+zh_0227033,昨天收到货，很喜欢，结果发现瓶底有裂痕只好退货，很想再次购买，又怕有问题麻烦？,1,0,0,False,False,False,False,False,False,False,True
+zh_0951197,有两个脚有毛刺会划伤手，表面有好几处漏出内部材质。有些失望。,1,0,0,False,False,False,False,False,False,False,True
+zh_0526121,续集什么时候可以看？急死人了，看到最紧张的气候突然没有了😔,1,0,0,False,False,False,True,False,False,False,True
+zh_0687879,三盒都是牛奶谷物味的，生产日期是8月份的。,1,0,0,False,False,False,False,False,False,False,True
+zh_0147016,外形优美，但是有个很大的问题，提心哪里去买，不然用完了就没有了，请亚马逊回答,1,0,0,False,False,False,True,True,False,False,True
+zh_0433269,一次糟糕的购物体验，给差评系统还不通过，买完心情糟透了。快递竟然要自己去取 不知道亚马逊搞的什么鬼！,1,0,0,False,False,False,True,False,False,False,True
+zh_0683385,随随便便调价，现在居然比以前贵了10元，没信用。,1,0,0,False,False,False,True,False,False,False,True
+zh_0061426,这一次只能给4星，瓶身上有乱七八糟的不干胶贴，居然还是洋河大曲的，库房管理是不是有些问题？,1,0,0,False,False,False,True,False,False,False,True
+zh_0950160,门打开后，等就一直亮着。很多时候加热了之后，有水气要散散，就只能一直亮着了,1,0,0,False,False,False,False,False,False,False,True
+zh_0295639,在保质期内…可是有点辣…是脱脂的原因吗… 可以退货吗…,1,0,0,False,False,False,False,True,False,False,True
+zh_0269791,知道彼得·德鲁克是管理理论大师，但是为何这本的翻译这么拗口...,1,0,0,False,False,False,False,True,False,False,True
+zh_0782093,内里带绒比较暖和，但做工实在差，里面的胶水把绒都糊成一片片硬硬的，原先的clarks不是这样的啊,1,0,0,False,False,False,True,True,False,False,True
+zh_0047364,封面像旧书看着很不舒服、里面的内容可以的,1,0,0,False,False,False,True,False,False,False,True
+zh_0724829,在课堂上拍摄ppt，1600万像素还是比不上苹果800万像素，实在是一种遗憾🙁,1,0,0,False,False,False,True,False,False,False,True
+zh_0471464,没有详解，只有文章和部分单词句子的意思。有时候会觉得一句话有问题。。。😂😂😂但是木有详解可以看为什么要这样写觉得好心塞。,1,0,0,False,False,False,True,True,False,False,True
+zh_0911163,书的装帧丑到令人绝望，字体、排版都非常糟糕，让人以为看到了什么课本。这本书已经看过电子版的了，买回来是为了收藏。四星是给内容，排版设计的话，一星我都不想给。这么大个出版社，就不能好好工作，不要给学校丢脸。,1,0,0,False,False,False,True,False,False,False,True
+zh_0784855,用了不到一个月，一个耳机听不见了，已帮忙换新的设备,1,0,0,False,False,False,True,False,False,False,True
+zh_0257643,Kindle版的字太小，看不太清楚，没看几页！ 想看的同学可以考虑购买纸质版的。,1,0,0,False,False,False,True,False,False,False,True
+zh_0339470,唤起以前的记忆，减一颗星是因为物流，不是一般的慢，而且无法查询配送状态。,1,0,0,False,False,False,True,False,False,False,True
+zh_0606266,错别字太多！阅读体验差，恍惚间感觉我在读盗版书，希望可以改进，认真校对。,1,0,0,False,False,False,True,False,False,False,True
+zh_0200462,不好。一点都不好看。我还是多买点实用类的书来研究。,1,0,0,False,False,False,True,False,False,False,True
+zh_0585684,马马虎虎，还能忽悠我这样的小白吧！毕竟就那点钱，太深奥我也看不懂，可以,1,0,0,False,False,False,True,False,False,False,True
+zh_0967444,本来以为不含硅结果还是有，苏州产，绝望。,1,0,0,False,False,False,True,False,False,False,True
+zh_0145223,本人是冲着后膜来的，但是由于手机问题，后背不是那么的平整，导致后膜无法正常贴合，于是就揭开了。。。仍了。。。。（本人认为：苹果5S的手机，后背都没有平整的，因为它分为上、中、下三部分，跟本无法达到平整的效果，而钢化膜能顺利贴合的条件之一就是必须在平整面上才能贴的，所以，不建议买后膜，也希望商家不要去做后膜产品了，以免更多的人花冤枉钱。）,1,0,0,False,False,False,True,True,False,False,True
+zh_0111242,灯的质感不错，但是几只当路灯的灯泡不知怎么很快就坏了,1,0,0,False,False,False,True,True,False,False,True
+zh_0301898,不知何故，订单上说明是五本书一起送到，但生生被拆成两个？,1,0,0,False,False,False,True,True,False,False,True
+zh_0176319,什么体感游戏等等，不知为何物，3D是放不了的，说明书里没有介绍，找不到官方网站，亚马逊是否有客服呢？找不到啊，第一次在亚马逊购物，感觉比淘宝差啊，买了不知道怎么弄，不知道找谁。,1,0,0,False,False,False,True,False,False,False,True
+zh_0496853,感觉换钻头比较麻烦，而且总有点担心会不稳。包装很简陋，让人失望。最后严重建议亚马逊换广西的物流合作伙伴。原来的腾达很垃圾，想不到换了EMS，更是渣队友！如果亚马逊继续这样的话，肯定被京东甩得后视镜都不见。,1,0,0,False,False,False,True,False,False,False,True
+zh_0653106,收到的书 经过快递的碾压 薄薄的一层抗压膜卵用没有！书都还没看 角就被磕破了-.-!!,1,0,0,False,False,False,True,False,False,False,True
+zh_0151065,书的印刷质量不错，但读了几页，即发现明显的答案错误，如民诉与仲裁第9页答案1，明显不对，不知什么原因,1,0,0,False,False,False,True,True,False,False,True
+zh_0602212,中间出水孔密集，外圈只有一圈出水孔。造成内圈的水和外圈的水有温差。这个现象在冬天尤其明显。,1,0,0,False,False,False,False,False,False,False,True
+zh_0464112,买了两次，感觉这里购买挺方便的，送货时间也可以买。但是这次货到付款时有几种食品比订购价格贵了些，昨天联系了客服，说申请给多收的退回来，可现在也没收到,1,0,0,False,False,False,True,True,False,False,True
+zh_0916469,太小 想退发现没办法退 退货运费都有100 多 怎么没有换货选项啊？！这个系统真的太不如淘宝啦！,1,0,0,False,False,False,True,False,False,False,True
+zh_0270708,假货？？用了起痘痘过敏火辣辣？？一星期之后使用没过敏了 比预计晚了十天才到。,1,0,0,False,False,False,True,False,False,False,True
+zh_0848667,这书和我在图书馆看的质量不一样，没过膜、略缩小了，封面还撕了条裂痕，买了几本书用箱子一起打包，整体不如以往好，感觉被无良的快递打开过似地，醉了,1,0,0,False,False,False,True,False,False,False,True
+zh_0625856,用起来还可以，就是音乐声音太小，几乎没有什么作用，早知道省点钱买D12了，作用一样的。自己用的7000已出现充不进电的情况，这个不知能坚持多久,1,0,0,False,False,False,True,False,False,False,True
+zh_0516581,胜牌（Valvoline）派诺超级燃油系统清洁剂 燃油宝 怎么换了一家经销商 不知道效果如何,1,0,0,False,False,False,True,False,False,False,True
+zh_0288553,分明选择晚上送货，下午就到了，借口为人手不够，晚上送不了，好在楼下有个代收点，否则怎么办？ 差劲的物流，不说什么了！,1,0,0,False,False,False,True,False,False,False,True
+zh_0723281,印刷质量一般，而且内容对于父母感觉没有太强意义，所以暂不推荐。,1,0,0,False,False,False,True,False,False,False,True
+zh_0114761,亚马逊的快递越来越不好了，现在还得要自己下楼取快件～,1,0,0,False,False,False,True,False,False,False,True
+zh_0540054,除了质量问题，对评论真是无语，三四百三口锅，还要啥自行车,1,0,0,False,False,False,True,False,False,False,True
+zh_0748263,英国系统原因，买的3码，发过来2.5，国内皮鞋穿3码，2.5小了，退回去。,1,0,0,False,False,False,False,False,False,False,True
+zh_0915598,密封严，盖盖儿时有明显的排气现象。材质透明，不像劣质材料做的发乌。,1,0,0,False,False,False,True,False,False,False,True
+zh_0092535,比较杂，缺乏体系，并非都专业。可以随便翻翻。,1,0,0,False,False,False,True,False,False,False,True
+zh_0452479,用了1个半月，魔术贴就失效了，没办法只好再买了一个，希望这个寿命能长点。,1,0,0,False,False,False,True,False,False,False,True
+zh_0419293,比某品牌十来块一盒的好太多。带上只能听见室友说话，其他声音全部听不到,1,0,0,False,False,False,True,False,False,False,True
+zh_0158176,这五颗星是给作者和译者的，其他的如前评论者所说。,1,0,0,False,False,False,False,False,False,False,True
+zh_0293554,味道闻起来很香，但喝起来是腥的。正品。呵呵。 价格浮动不小。我买的180.还有20块的卷。算是160.今天就189.什么都没有了。。早知道多买两瓶,1,0,0,False,False,False,True,True,False,False,True
+zh_0614119,很让人伤心，刚买T70p，刚满一个月，却不能退货，就降价1000人民币，亚马逊，是否能还个差价，，这太狠了，太狠了，希望能对修复消费者心里,1,0,0,False,False,False,True,True,False,False,True
+zh_0310735,不是太好，每个动物用了4页纸，可能是适合初学者用的吧,1,0,0,False,False,False,True,False,False,False,True
+zh_0231375,买来后发现太小了 退了 快递员很快来拿了 谢谢辛苦了,1,0,0,False,False,False,False,False,False,False,True
+zh_0407776,为什么不能评论为什么不能评论为什么不能评论,1,0,0,False,False,False,True,False,False,False,True
+zh_0638061,同时买了7506和V6，这俩完全一样，声音无区别，搞不懂为啥要搞两个马甲？,1,0,0,False,False,False,True,False,False,False,True
+zh_0549883,做工还可以吧，雕像底座，写着中国制造，哎但你在中国买不到，最可气还有进口关税,1,0,0,False,False,False,True,True,False,False,True
+zh_0235814,订了9讲和18讲 还不错。就是18讲是很明显的盗版书，防伪都没有。今天换货已经收到。明显和上本不同。,1,0,0,False,False,False,True,False,False,False,True
+zh_0946318,你好，怎么联系你们，东西没有收到，但是显示已经接收？,1,0,0,False,False,False,True,True,False,False,True
+zh_0499976,第151页. 假如没有那些联“台”企业，美国就会变成一个半垄断的国家.. 不知道你们的书是这样吗,1,0,0,False,False,False,True,False,False,False,True
+zh_0991878,这书不能不买。呵呵在中国想考研？对不起政治先过了吧。,1,0,0,False,False,False,True,False,False,False,True
+zh_0932199,小球中最不会被某人或某个国家长期统治的运动，长期统治太无聊,1,0,0,False,False,False,True,False,False,False,True
+zh_0409700,说是一次性，实际上洗洗继续穿，刚生完肚子没收的那段日子全靠它了,1,0,0,False,False,False,True,False,False,False,True
+zh_0797062,这是一次极不愉快的购物体验！因为是比较贵，特意选亚马逊直销，结果发过来的货品居然是破损的，还少一根USB连接线！虽然同意换货，但给人感觉是你亚马逊给客户的恩赐一般，请搞清楚，是你出库时不把关把破损的商品发出来的！不知是故意还是有意。,1,0,0,False,False,False,True,True,False,False,True
+zh_0242705,第一次用亚马逊购物，感觉在亚马逊的商家挺负责任的，没有货能及时打电话，这样可以赶快在别家拍，这一点比我在天猫上的一家图书卖家好，那卖家还发假物流信息，等我6天还没收到书后，和它联系才告诉我没货，真不负责任！,1,0,0,False,False,False,True,False,False,False,True
+zh_0632514,实话实说，写这个评论时买的是我第四个罗技拇指轨迹球，前三个都因为使用频率太高造成鼠标左键（主键）接触不良了。 心里一边埋怨为什么罗技不把它的主键改良的更坚固耐用些，一边还是无怨无悔的继续选择它，就是因为它所带来的舒适感和自由度不是一般传统鼠标所能做到的。,1,0,0,False,False,False,True,False,False,False,True
+zh_0697327,不锈钢的感觉要比塑料的好些，不过一直开着，那个电源真的很烫手，不知为什么 用了8个月，水泵坏掉不出水了…不知道去哪换…后悔啊，买海外购什么的都是泪…说好的简单耐用呢,1,0,0,False,False,False,True,True,False,False,True
+zh_0955973,东西非常好 但是最近的单子都被砍了 害得我孩子断粮了 很不开心 而且显示已经发货，一直查不到进度问了客服才说被退回帮我操作退款！,1,0,0,False,False,False,True,True,False,False,True
+zh_0007368,xxx页有错…?至少我们英语老师是认为没有这种写法的…,1,0,0,False,False,False,True,False,False,False,True
+zh_0980195,本来是上个订单书出了问题，书中缺页且过了换货期限，但打了客服亚马逊还是给免费换了一本，希望亚马逊越来越好。一直买书都是从亚马逊买，务实不和狗东一样搞虚的。,1,0,0,False,False,False,True,True,False,False,True
+zh_0898185,很多动作比较复杂高难，看得出这本书原原本本地呈现了本色瑜伽动作。,1,0,0,False,False,False,False,False,False,False,True
+zh_0829503,"这部书是在做2015年全国二卷的时候看到了老汪的一个选段,因为好奇所以买来看看,都是类似发生在身边的的杂陈琐事,只能说都不容易。",1,0,0,False,False,False,True,False,False,False,True
+zh_0392873,我是单纯想了解费马大定理才买的这本书，但是看了一半就不想看下去了，作者讲故事的水平很一般。,1,0,0,False,False,False,True,True,False,False,True
+zh_0358517,不知道是不是因为潮的原因 滤水壶里这滤芯都长虫卵🐛了 超级恶习🤢,1,0,0,False,False,False,True,False,False,False,True
+zh_0304493,东西真的不错 但是服务真的是太脱节了 物流水平也不行 同样的地址 自取跟送货能给你两天的间隔 水土不服很严重,1,0,0,False,False,False,True,True,False,False,True
+zh_0383852,第一次用亚马逊，除了多扣了我30块钱客服还不承认之外，对书没有任何意见！因为还没有看……,1,0,0,False,False,False,True,False,False,False,True
+zh_0381245,经典童谣就那么几十首，不同的书来回炒作。有的书加点插图，就贵了好多。这是黑白的，有插图，六七十页，定价一般。,1,0,0,False,False,False,True,False,False,False,True
+zh_0501663,对商品还是认可的，对于如风达快递评价真是糟糕透顶，在无法及时送达的情况下，将货品转移给另一家快递公司代送，存在货品丢失风险，建议加强对递送单位的审核。,1,0,0,False,False,False,True,False,False,False,True

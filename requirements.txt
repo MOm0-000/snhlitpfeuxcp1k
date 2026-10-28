@@ -1,0 +1,12 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3,<2
+joblib>=1.3
+jieba>=0.42.1
+tqdm>=4.66
+transformers>=4.44,<5
+huggingface-hub>=0.25
+safetensors>=0.4
+matplotlib==3.10.9
+# PyTorch 由用户已有的 CUDA 环境提供，避免 pip 覆盖当前 GPU 版本。

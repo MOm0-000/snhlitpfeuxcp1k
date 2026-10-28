@@ -1,0 +1,14 @@
+{
+  "best_method": "NB_SVM_C4",
+  "best_macro_f1": 0.8517277498954687,
+  "best_model_file": "/home/zxx/NLPexp/exp1/code/outputs/classical/best_classical.joblib",
+  "methods_required": 15,
+  "methods_completed": 15,
+  "extra_optimized_methods": 10,
+  "mode": "full_train",
+  "total_seconds": 55.53,
+  "train_rows": 20000,
+  "validation_rows": 4000,
+  "train_path": "/home/zxx/NLPexp/exp1/code/data/train.csv",
+  "validation_path": "/home/zxx/NLPexp/exp1/code/data/validation.csv"
+}
