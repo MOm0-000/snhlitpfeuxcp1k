@@ -1,3 +1,8 @@
 
 # Large model weights
 *.safetensors
+
+# Large model/checkpoint files
+*.pt
+*.bin
+*.safetensors

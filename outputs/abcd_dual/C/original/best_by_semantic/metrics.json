@@ -1,0 +1,48 @@
+{
+  "variant": "C",
+  "train_version": "original",
+  "selected_by": "semantic",
+  "best_epoch": 5,
+  "verified_reload": true,
+  "scores": {
+    "original": {
+      "accuracy": 0.8825,
+      "macro_f1": 0.8824999706249926,
+      "macro_precision": 0.8825003825003825,
+      "macro_recall": 0.8825000000000001,
+      "confusion_matrix": [
+        [
+          1766,
+          234
+        ],
+        [
+          236,
+          1764
+        ]
+      ],
+      "correct": 3530,
+      "wrong": 470
+    },
+    "semantic": {
+      "accuracy": 0.89025,
+      "macro_f1": 0.8902494443878122,
+      "macro_precision": 0.8902531402531403,
+      "macro_recall": 0.8902645555028039,
+      "confusion_matrix": [
+        [
+          1776,
+          213
+        ],
+        [
+          226,
+          1785
+        ]
+      ],
+      "correct": 3561,
+      "wrong": 439
+    }
+  },
+  "model_path": "/home/zxx/NLPexp/exp1/code/outputs/abcd_dual/C/original/best_by_semantic/best_model",
+  "training_seconds": 703.9,
+  "semantic_validation_is_partial": true
+}
