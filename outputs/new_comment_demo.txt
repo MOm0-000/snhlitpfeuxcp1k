@@ -1,0 +1,11 @@
+验证集 4000 条，两套标签有 33 条差异；两套标签将独立选模。
+[C/original] 已存在完整且配置相同的结果，跳过。
+已汇总 16/16 个checkpoint：outputs/abcd_dual/comparison.csv
+[C/cleaned] 已存在完整且配置相同的结果，跳过。
+已汇总 16/16 个checkpoint：outputs/abcd_dual/comparison.csv
+
+模型 C 新评论预测（outputs/abcd_dual/C/cleaned/best_by_original）：
+正面 (正面概率=0.972)：质量很好，物流很快，下次还会购买。
+负面 (正面概率=0.016)：质量非常差，客服态度也不好。
+正面 (正面概率=0.601)：这款商品不是不好，只是价格有点高。
+负面 (正面概率=0.283)：虽然包装很好，但是商品有明显缺陷。

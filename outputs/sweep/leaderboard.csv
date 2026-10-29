@@ -1,4 +1,0 @@
-﻿profile,macro_f1,accuracy,macro_precision,macro_recall,best_epoch,model_dir,max_length,lr,label_smoothing,layerwise_lr_decay,fgm_epsilon,rdrop_alpha
-fgm,0.8819933621266196,0.882,0.8820859693431022,0.882,4,/home/zxx/NLPexp/exp1/code/outputs/sweep/fgm/best_model,192,2e-05,0.04,0.92,0.5,0.0
-longer,0.8772195427728291,0.87725,0.8776246981066964,0.8772500000000001,2,/home/zxx/NLPexp/exp1/code/outputs/sweep/longer/best_model,192,2e-05,0.04,0.92,0.0,0.0
-baseline,0.8702499918906246,0.87025,0.8702500925625232,0.87025,3,/home/zxx/NLPexp/exp1/code/outputs/sweep/baseline/best_model,128,3e-05,0.0,1.0,0.0,0.0

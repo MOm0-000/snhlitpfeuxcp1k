@@ -6,3 +6,8 @@
 *.pt
 *.bin
 *.safetensors
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
