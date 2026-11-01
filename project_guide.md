@@ -1,8 +1,17 @@
 # FC_finetune 实验项目脚本与结果阅读指南
 
-本文档只说明 `FC_finetune` 分支当前有效的实验链路。
+本文档说明 `FC_finetune` 分支最终有效的实验链路。最终结果口径与实验报告一致：
 
-旧的 A/B/C/D、FGM、R-Drop、人工标签修正和全参数微调实验不属于本分支正式结果。
+```text
+经典最佳：NB_SVM_C4
+Macro-F1 = 85.173%
+
+预训练路线：Frozen RoBERTa + FC
+learning_rate = 0.002
+weight_decay = 0.01
+best_epoch = 18
+Macro-F1 = 85.525%
+```
 
 ## 1. 最终实验链路
 
@@ -17,49 +26,45 @@ data/train.csv + data/validation.csv
         │
         └── extract_features.py
                 │
-                ├── 冻结 UER RoBERTa（0 个可训练编码器参数）
-                │
+                ├── 冻结 UER RoBERTa
                 ├── train_cls_features.npz
-                │
                 └── validation_cls_features.npz
                         │
-                        └── train_fc.py
-                                │
-                                ├── 只训练 Linear(512,2)
-                                ├── 1026 个可训练参数
-                                ├── 每轮 validation
-                                └── classifier_best.pt
+                        ├── train_fc.py
+                        │       └── 单组 FC 训练
+                        │
+                        └── sweep_fc.py
+                                ├── 3 个学习率 × 2 个 weight decay
+                                ├── outputs/fc_sweep/run_01...run_06/
+                                ├── sweep_results.csv
+                                └── outputs/fc_sweep/best/
                                         │
                                         └── predict_fc.py
-                                                ├── 恢复验证
-                                                ├── 逐条 validation 预测
+                                                ├── 从原始 validation 重新编码
+                                                ├── 恢复最终 FC 权重
+                                                ├── 验证指标与逐条预测
                                                 └── 四类新评论预测
 ```
 
-## 2. 数据
-
-```text
-train.csv       20,000 条，0/1 各 10,000
-validation.csv   4,000 条，0/1 各 2,000
-```
-
-两条路线使用同一数据划分。
-
-## 3. 文件用途
+## 2. 各脚本用途
 
 ### `common.py`
 
-只服务于经典机器学习脚本，提供数据检查、指标计算、预测保存、错误样本保存和随机种子等公共函数。
+服务于经典机器学习流程，提供数据检查、指标计算、预测保存、错误样本保存和随机种子等公共函数。
 
 ### `inspect_tokenizer.py`
 
-检查课程指定 UER 模型的 WordPiece 编码：
+检查 UER 模型配套 WordPiece tokenizer 的实际编码，包括：
 
-```bash
-python inspect_tokenizer.py --model pretrained
-```
+- tokens
+- token IDs
+- `[CLS]`
+- `[SEP]`
+- `[PAD]`
+- `attention_mask`
+- `token_type_ids`
 
-结果：
+输出：
 
 ```text
 outputs/inspect_tokenizer.txt
@@ -67,253 +72,225 @@ outputs/inspect_tokenizer.txt
 
 ### `train_classical.py`
 
-训练经典分类器：
+训练经典机器学习分类器。
 
-```bash
-python train_classical.py \
-  --train data/train.csv \
-  --validation data/validation.csv \
-  --output-dir outputs/classical
-```
-
-正式结果：
+正式实验：
 
 ```text
-15 个基础分类器
-10 个额外优化配置
-最佳 NB_SVM_C4
-Macro-F1 = 0.8517277499
+基础分类器：15 个
+额外优化配置：10 个
+最佳：NB_SVM_C4
+Macro-F1：85.173%
 ```
+
+结果位于：
+
+```text
+outputs/classical/
+```
+
+其中包含各方法评价指标、逐条预测、汇总结果、最佳模型和代表性误分类样本。
 
 ### `extract_features.py`
 
-加载本地 `pretrained/` 中的 UER RoBERTa，显式冻结全部编码器参数，从最后一层取 `[CLS]` 作为 512 维固定特征。
+加载 UER `chinese_roberta_L-8_H-512`，冻结全部 RoBERTa 参数，使用最后一层 `[CLS]` 向量作为固定 512 维特征。
 
-```bash
-python extract_features.py \
-  --train data/train.csv \
-  --validation data/validation.csv \
-  --model-dir pretrained \
-  --output-dir outputs/fc_only \
-  --max-length 192 \
-  --batch-size 64 \
-  --device auto
-```
-
-结果：
+输出：
 
 ```text
-train_cls_features.npz       (20000, 512)
-validation_cls_features.npz  (4000, 512)
-feature_metadata.json
+outputs/fc_only/train_cls_features.npz
+outputs/fc_only/validation_cls_features.npz
+outputs/fc_only/feature_metadata.json
 ```
 
-`feature_metadata.json` 记录编码器可训练参数为 0。
+形状：
+
+```text
+train      (20000, 512)
+validation (4000, 512)
+```
+
+`outputs/fc_only/` 在最终提交中只承担“固定特征文件及元数据”的角色，不再作为最终 FC 模型结果目录。
 
 ### `train_fc.py`
 
-不加载 Transformer，仅读取前一步的固定特征，训练：
+读取已经保存的固定特征，仅训练：
 
 ```text
 Linear(512, 2)
 ```
 
-共：
+可训练参数：
 
 ```text
-1026 trainable parameters
+1,026
 ```
 
-命令：
+每轮记录训练 loss 和验证集 Accuracy、Macro-Precision、Macro-Recall、Macro-F1，并以 Macro-F1 保存该组最优 epoch。
 
-```bash
-python train_fc.py \
-  --train-features outputs/fc_only/train_cls_features.npz \
-  --validation-features outputs/fc_only/validation_cls_features.npz \
-  --output-dir outputs/fc_only \
-  --epochs 20 \
-  --batch-size 128 \
-  --lr 1e-3 \
-  --weight-decay 0.01 \
-  --device auto
-```
+### `sweep_fc.py`
 
-每轮计算 validation 指标，并按 Macro-F1 保存最佳：
+正式 FC 超参数对照脚本。
+
+配置：
 
 ```text
-classifier_best.pt
+learning_rate = {0.0005, 0.001, 0.002}
+weight_decay  = {0, 0.01}
+batch_size    = 128
+epochs        = 20
+seed          = 42
 ```
 
-当前最佳：
+共 6 组。
+
+结果汇总：
 
 ```text
-epoch            14
-Accuracy         0.8545
-Macro-F1         0.8544990906
-Macro-Precision  0.8545088627
-Macro-Recall     0.8545
+outputs/fc_sweep/sweep_results.csv
+outputs/fc_sweep/best_run.json
+```
+
+最终最佳：
+
+```text
+run_06_lr0p002_wd0p01_bs128_s42
+learning_rate = 0.002
+weight_decay = 0.01
+best_epoch = 18
+Macro-F1 = 85.525%
 ```
 
 ### `predict_fc.py`
 
-重新加载原始预训练编码器和 `classifier_best.pt`，重新编码 validation 后核对指标，并测试正面、负面、否定、转折评论。
-
-```bash
-python predict_fc.py \
-  --validation data/validation.csv \
-  --model-dir pretrained \
-  --classifier outputs/fc_only/classifier_best.pt \
-  --output-dir outputs/fc_only \
-  --max-length 192 \
-  --batch-size 64 \
-  --device auto
-```
-
-恢复指标与训练阶段最佳指标一致。
-
-## 4. `outputs/fc_only/` 文件解释
+最终恢复时使用：
 
 ```text
-train_cls_features.npz
+原始冻结 RoBERTa
++
+outputs/fc_sweep/best/classifier_best.pt
 ```
 
-训练集固定 `[CLS]` 特征、标签和 ID。属于需要提交的特征文件。
+从原始 `validation.csv` 重新进行 tokenizer 编码和 RoBERTa 特征提取，再接最终 FC 权重。
+
+最终恢复指标：
 
 ```text
-validation_cls_features.npz
+Accuracy         = 85.525%
+Macro-Precision  = 85.527%
+Macro-Recall     = 85.525%
+Macro-F1         = 85.525%
 ```
 
-验证集固定 `[CLS]` 特征、标签和 ID。属于需要提交的特征文件。
+混淆矩阵：
 
 ```text
-feature_metadata.json
+[[1704, 296],
+ [ 283,1717]]
 ```
 
-记录模型维度、层数、序列长度、数据哈希、样本数量及编码器可训练参数数目。
+输出：
 
 ```text
-history.csv
+outputs/fc_sweep/best/reloaded_validation_metrics.json
+outputs/fc_sweep/best/reloaded_validation_predictions.csv
+outputs/fc_sweep/best/new_comment_demo.txt
 ```
 
-20 个 epoch 的训练 loss 与 validation Accuracy / Macro-F1 / Macro-P / Macro-R。
+## 3. 6 组参数对照
 
 ```text
-training_config.json
+lr=0.0005, wd=0     → Macro-F1 85.35%, best epoch 18
+lr=0.0005, wd=0.01  → Macro-F1 85.37%, best epoch 18
+lr=0.001,  wd=0     → Macro-F1 85.45%, best epoch 15
+lr=0.001,  wd=0.01  → Macro-F1 85.45%, best epoch 14
+lr=0.002,  wd=0     → Macro-F1 85.50%, best epoch 18
+lr=0.002,  wd=0.01  → Macro-F1 85.52%, best epoch 18
 ```
 
-记录 FC-only 训练配置；可训练参数为 1026，编码器训练参数为 0。
+因此报告及最终提交均以第 6 组作为正式 FC 结果。
+
+## 4. 最终模型相关文件
+
+最终模型目录：
+
+```text
+outputs/fc_sweep/best/
+```
+
+关键内容包括：
 
 ```text
 classifier_best.pt
-```
-
-Macro-F1 最高 epoch 的全连接层权重。最终提交重点文件。
-
-```text
+history.csv
+training_config.json
 best_metrics.json
-```
-
-训练结束后重新恢复 `classifier_best.pt` 得到的最佳验证指标；`verified_reload=true`。
-
-```text
 validation_predictions.csv
-```
-
-`train_fc.py` 恢复最佳 FC 后对已保存 validation 特征的逐条预测。
-
-```text
 reloaded_validation_metrics.json
-```
-
-`predict_fc.py` 从原始文本重新经冻结 RoBERTa 编码，再接恢复 FC 权重得到的完整验证指标。
-
-```text
 reloaded_validation_predictions.csv
-```
-
-`predict_fc.py` 对 validation 的逐条文本、标签、预测、正面概率和正确性记录。
-
-```text
 new_comment_demo.txt
+selected_from.json
 ```
 
-正面、负面、否定、转折四种自拟评论预测。
+其中：
 
-## 5. 结果一致性
+- `classifier_best.pt`：最终 FC 权重
+- `history.csv`：最终配置 20 个 epoch 的训练记录
+- `training_config.json`：最终配置
+- `best_metrics.json`：训练阶段恢复最佳权重得到的验证指标
+- `validation_predictions.csv`：基于保存特征的验证预测
+- `reloaded_validation_metrics.json`：从原始文本重新编码后的恢复指标
+- `reloaded_validation_predictions.csv`：从原始文本重新编码后的逐条预测
+- `new_comment_demo.txt`：正面、负面、否定、转折四类新评论预测
+- `selected_from.json`：说明该目录复制自 sweep 的哪一组最优实验
 
-训练阶段最佳模型：
+## 5. 最终新评论预测
 
 ```text
-Macro-F1 = 0.8544990906193164
+正面：
+质量很好，物流很快，下次还会购买。
+→ 正面，正面概率 0.972928
+
+负面：
+质量非常差，客服态度也不好。
+→ 负面，正面概率 0.003753
+
+否定：
+这款商品不是不好，只是价格有点高。
+→ 负面，正面概率 0.366510
+
+转折：
+虽然包装很好，但是商品有明显缺陷。
+→ 正面，正面概率 0.673484
 ```
 
-重新加载原始编码器 + FC 权重：
+这些结果用于说明冻结上下文表示 + 线性分类头对复杂否定和转折关系仍存在局限。
+
+## 6. 两条路线最终比较
 
 ```text
-Macro-F1 = 0.8544990906193164
+NB_SVM_C4
+Accuracy         85.175%
+Macro-Precision  85.196%
+Macro-Recall     85.175%
+Macro-F1         85.173%
+
+Frozen RoBERTa + FC
+Accuracy         85.525%
+Macro-Precision  85.527%
+Macro-Recall     85.525%
+Macro-F1         85.525%
 ```
 
-说明恢复结果与训练阶段记录一致。
+预训练路线 Macro-F1 提高约 0.35 个百分点。
 
-## 6. 当前结果分析注意事项
+## 7. 提交检查
 
-经典最佳 `NB_SVM_C4`：
+提交前只需确保以下几点：
 
-```text
-Macro-F1 = 85.17%
-```
-
-FC-only：
-
-```text
-Macro-F1 = 85.45%
-```
-
-提升约：
-
-```text
-+0.28 个百分点
-```
-
-因此报告不应写“预训练模型显著碾压经典方法”。
-
-新评论中：
-
-- 简单正面、负面判断正确；
-- “不是不好”被预测为负面；
-- “虽然……但是商品有明显缺陷”被预测为正面。
-
-这些结果适合用于讨论冻结特征 + 线性分类头对复杂否定和转折关系的局限。
-
-## 7. 推荐提交文件
-
-强烈建议保留：
-
-```text
-data/
-pretrained/ 中 tokenizer/config 文件
-inspect_tokenizer.py
-train_classical.py
-common.py
-extract_features.py
-train_fc.py
-predict_fc.py
-requirements.txt
-outputs/inspect_tokenizer.txt
-outputs/classical/classical_results.csv
-outputs/classical/summary.json
-outputs/classical/best_classical.joblib
-outputs/classical/best_errors.csv
-outputs/fc_only/train_cls_features.npz
-outputs/fc_only/validation_cls_features.npz
-outputs/fc_only/feature_metadata.json
-outputs/fc_only/history.csv
-outputs/fc_only/training_config.json
-outputs/fc_only/classifier_best.pt
-outputs/fc_only/best_metrics.json
-outputs/fc_only/reloaded_validation_metrics.json
-outputs/fc_only/reloaded_validation_predictions.csv
-outputs/fc_only/new_comment_demo.txt
-```
-
-原始 `pretrained/pytorch_model.bin` 可保存在本地，不建议提交 GitHub；它属于公开预训练模型原始权重，不是本实验训练得到的权重。
+1. 最终报告中的 FC 指标是 85.525%，最佳 epoch 为 18。
+2. 最终 FC 权重引用 `outputs/fc_sweep/best/classifier_best.pt`。
+3. `outputs/fc_only/` 只作为固定特征存放位置，不再混入旧的 85.45% FC 训练结果。
+4. 6 组参数实验保留完整记录，`sweep_results.csv` 与报告表格一致。
+5. 模型恢复指标与报告中的最终指标一致。
+6. 另附实验报告 PDF。
