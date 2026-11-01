@@ -1,0 +1,18 @@
+{
+  "best_epoch": 18,
+  "verified_reload": true,
+  "accuracy": 0.85375,
+  "macro_f1": 0.8537484552180582,
+  "macro_precision": 0.8537649465689925,
+  "macro_recall": 0.85375,
+  "confusion_matrix": [
+    [
+      1714,
+      286
+    ],
+    [
+      299,
+      1701
+    ]
+  ]
+}

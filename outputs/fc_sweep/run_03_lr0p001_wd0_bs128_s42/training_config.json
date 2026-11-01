@@ -1,0 +1,14 @@
+{
+  "method": "Linear probing / frozen encoder + trainable FC head",
+  "classifier": "Linear(512, 2)",
+  "trainable_parameters": 1026,
+  "encoder_trainable_parameters_during_training": 0,
+  "epochs": 20,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "seed": 42,
+  "device": "cuda",
+  "train_features": "outputs/fc_only/train_cls_features.npz",
+  "validation_features": "outputs/fc_only/validation_cls_features.npz"
+}

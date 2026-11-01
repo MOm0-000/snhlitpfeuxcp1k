@@ -1,0 +1,22 @@
+{
+  "selection_metric": "validation_macro_f1",
+  "best_run": {
+    "run_name": "run_06_lr0p002_wd0p01_bs128_s42",
+    "learning_rate": 0.002,
+    "weight_decay": 0.01,
+    "batch_size": 128,
+    "epochs": 20,
+    "seed": 42,
+    "best_epoch": 18,
+    "accuracy": 0.85525,
+    "macro_f1": 0.8552484710619757,
+    "macro_precision": 0.8552650099466703,
+    "macro_recall": 0.8552500000000001,
+    "verified_reload": true,
+    "trainable_parameters": 1026,
+    "encoder_trainable_parameters_during_training": 0,
+    "run_dir": "outputs/fc_sweep/run_06_lr0p002_wd0p01_bs128_s42"
+  },
+  "num_runs": 6,
+  "results_csv": "outputs/fc_sweep/sweep_results.csv"
+}
