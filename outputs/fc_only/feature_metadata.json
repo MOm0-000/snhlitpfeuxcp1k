@@ -1,0 +1,27 @@
+{
+  "method": "Frozen pretrained encoder + last-layer CLS feature",
+  "model_dir": "pretrained",
+  "model_type": "bert",
+  "hidden_size": 512,
+  "num_hidden_layers": 8,
+  "max_length": 192,
+  "tokenizer_vocab_size": 21128,
+  "encoder_total_parameters": 36300800,
+  "encoder_trainable_parameters": 0,
+  "train_sha256": "f59a34937d5638cc9898e3cd0fba75632486a66f902b98000a704e4b54c2d206",
+  "validation_sha256": "4765ea9fc50b8e095002236185e8622817e6d584d8920ed880f0359931ce301f",
+  "train": {
+    "rows": 20000,
+    "feature_dim": 512,
+    "label_0": 10000,
+    "label_1": 10000,
+    "file": "outputs/fc_only/train_cls_features.npz"
+  },
+  "validation": {
+    "rows": 4000,
+    "feature_dim": 512,
+    "label_0": 2000,
+    "label_1": 2000,
+    "file": "outputs/fc_only/validation_cls_features.npz"
+  }
+}
