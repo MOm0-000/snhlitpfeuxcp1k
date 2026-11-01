@@ -1,13 +1,17 @@
+# Original / large pretrained model weights are kept locally.
+pretrained/*.bin
+pretrained/*.safetensors
+pretrained/.cache/
 
-# Large model weights
-*.safetensors
-
-# Large model/checkpoint files
+# Generic model checkpoints are ignored by default.
 *.pt
 *.bin
 *.safetensors
 
-# Python cache
+# But the FC-only fine-tuned weight is a required experiment artifact.
+!outputs/fc_only/classifier_best.pt
+
+# Python / notebook cache
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
